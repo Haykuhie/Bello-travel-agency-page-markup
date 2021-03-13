@@ -3,12 +3,16 @@
     padding:0;
     font-family: 'Noto Sans JP', sans-serif;
 }
+html{
+    width: 100vw;
+    overflow-x: hidden;
+  }
 body {
     scrollbar-width: thin;        
     scrollbar-color:#F66542 white;   
   }
 .firstSection{
-    width:100%;
+    max-width:100%;
     height:130vh;
     background-image: url('assets/darker.jpg');
     background-size:cover;
@@ -23,15 +27,15 @@ body {
     justify-content:space-between;
 }
 .favicon{
-    width:14%;
-    height:82px;
+    width: 11vw;
+    height: 7vw;
     background-image: url('assets/Bello-logo-light.png');
     background-size:cover;
-    
+    margin:auto;
 }
 .banner{
-    width: 80%;
-    height:90px;
+    width: 74vw;
+    height: 7vw;
     background-image: url(assets/banner.jpg);
     background-size:cover;
     margin:auto 0;
@@ -51,7 +55,7 @@ ul{
     display:flex;
     justify-content: space-between;
     margin-top:10px;
-    font-size:13px;
+    font-size:calc(4px + 1vw);
 }
 ul li{
     list-style: none;
@@ -96,7 +100,8 @@ ul li:hover{
 .log{
     cursor:pointer;
     transition:0.8s;
-    font-size:13px;
+    font-size:calc(4px + 1vw);
+    margin-top:0;
 }
 .log:hover{
     color:#F66542;
@@ -109,29 +114,33 @@ ul li:hover{
     padding:40px;
 }
 .middle{
- font-size:70px;
+ font-size:5vw;
  text-align:center;
 }
 .big{
     font-weight:bold; 
 }
 .small{
-    font-size:20px; 
+    font-size:1.4vw; 
     margin:20px 0;
 }
 .forms{
-    width:55%;
-    height:100px;
+    width:50vw;
+    height:10vh;
     margin:0 auto;
     color:white;
+    align-items: center;
 }
 .firstForm{
    display:flex;
    justify-content: space-between;
 }
+.lst{
+    font-size: calc(4px + 1vw);
+}
 .searchArea{
-    width:330px;
-    height:30px;
+    width:22vw;
+    height:2vw;
     padding:10px;
     color:#B9B9B9;
     font-size:15px;
@@ -151,15 +160,15 @@ ul li:hover{
     transition:0.8s;
 }
 .fa-btn{
-  width:150px;
-  height:50px;
+  width:11vw;
+  height:6vh;
   background:#ec6f50;
   transition:0.8s;
   border:none;
   cursor:pointer;
   border-radius:3px;
   color:white;
-  font-size:15px;
+  font-size:calc(4px + 1vw);
   margin-left:5px;
 }
 .fa-btn:hover{
@@ -171,26 +180,27 @@ ul li:hover{
     transition:0.8s;
 }
 .absolutes{
-    width:95%;
-    height:550px;
+    width:95vw;
+    height:100vh;
     background:transparent;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin:0 auto;
-    margin-top: -160px;
+    margin-top: -60px;
     transition:1s;
 }
 
 .box{
-    width:400px;
-    height:300px;
-    background-size:113%;
+    width:31vw;
+    height: 66vh;
+    background-size: 130%;
     color:white;
     transition: 0.5s ;
     position:relative;
 }
 .box:hover{
-    background-size:120%;
+    background-size:135%;
     transition:1s;
 }
 .box::after{
@@ -254,7 +264,7 @@ ul li:hover{
 }
 .secondPart{
     width:95%;
-    height:70px;
+    height:20vh;
     padding:8px 0;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     font-size:12px;
@@ -278,16 +288,16 @@ ul li:hover{
 }
 .secondSection{
     width:100%;
-    height:300vh;
+    height:335vh;
     background:white;
 }
 .center{
     width:30%;
-    height:200px;
+    height:35vh;
     line-height:300px;
     margin:0 auto;
     text-align:center;
-    font-size:40px;
+    font-size:3vw;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 .location{
@@ -296,31 +306,39 @@ ul li:hover{
 }
 .paragraph{
     width:25%;
-    height:80px;
+    height:10vh;
     line-height:80px;
     margin:0 auto;
-    font-size:17px;
+    font-size:1.2vw;
 }
 .flex1{
     display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
     width:95%;
-    height:320px;
+    height:63vh;
     margin:35px auto;
 }
 .all{
-    width:22%;
-    height:320px;
+    transition:0.8s;
+    box-sizing: border-box;
+    width:21vw;
+    height:46vh;
     margin:0 auto;
     border-radius:4px;
     background-size:115%;
+    background-repeat: no-repeat;
     position:relative;
-    padding:10px;
+    padding:1vw;
     color:white;
-    font-size:10px;
+    font-size:calc(4px + 1vw);
     z-index:2;
     display:flex;
+    flex-wrap:wrap;
     flex-direction:column;
     justify-content: space-between;
+    t
 }
 .itom1{
     
@@ -376,19 +394,19 @@ ul li:hover{
     color:white;
 }
 .free{
-    width:60px;
-    height:30px;
+    width:5vw;
+    height:auto;
     background:#F66542;
     float:right;
     border:none;
     border-radius: 2px;
-    margin-bottom:-10px;
+     padding-bottom:0;
     font-size:11px;
     color:white;
 }
 .buttons{
-    width: 31%;
-    height:50px;
+    width: 56vw;
+    height: 8vh;
     display:flex;
     justify-content: space-between;
     margin:80px auto;
@@ -396,9 +414,10 @@ ul li:hover{
 }
 .buttons button:first-child{
     background: #4C4C4C;
-    width:200px;
+    width:50%;
     cursor:pointer;
     color:white;
+    font-size: calc(4px+0.5vw);
     font-weight:700;
     border:none;
     transition:1s;
@@ -408,7 +427,7 @@ ul li:hover{
 }
 .buttons button:nth-child(2){
     background: #F66542;
-    width:200px;
+    width:50%;
     cursor:pointer;
     color:white;
     font-weight:700;
@@ -420,10 +439,10 @@ ul li:hover{
 }
 .satisfied{
     color:#F66542;
-    font-size:40px;
+    font-size:3vw;
     font-weight: bold;
     margin:20px auto;
-    width: 20%;
+    width: 24vw;
     height: 60px;
     border-bottom: 2px solid rgba(0,0,0,0.2);
     text-align:center;
@@ -431,7 +450,7 @@ ul li:hover{
 }
 .user{
     color:black;
-    font-size:35px;
+    font-size:3vw;
     font-weight: 600;
 }
 .users{
@@ -454,6 +473,7 @@ ul li:hover{
     height:200px;
     background-size:cover;
     border-radius:360px;
+    margin: 0 auto;
 }
 .quote1{
     background-image: url(assets/quote-01.jpg);
@@ -465,25 +485,29 @@ ul li:hover{
     background-image: url(assets/quote.jpg);
 }
 .texts{
-    font-size:13px;
+    font-size:calc(4px + 1vw);
     text-align:center;
-    padding:20px 0;
-    margin-left:-45px;
+    padding: 0;
+    margin-left:0;
     color:#5C5C5C;
 }
 .names{
     color:#F77657;
-    font-size:25px;
+    font-size:calc(4px + 2vw);
     font-weight:bold;
+
 }
+
 .position{
-    font-size:15px;
-    font-weight: bold;
-    color:black;
-}
+    
+        font-size:15px;
+        font-weight: bold;
+        color:black;
+    }
+    
 .parallax{
     width:100%;
-    height:90vh;
+    height:110vh;
     background: url('assets/covered.jpg') fixed ;
     background-size:cover;
     padding-top:100px;
@@ -492,8 +516,7 @@ ul li:hover{
 
 .how{
     width:30%;
-
-    font-size:50px;
+    font-size:calc(14px + 2vw);
     color:white;
     text-align:center;
     border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -513,18 +536,19 @@ ul li:hover{
 }
 .FLEX{
     width:95%;
-    height:150px;
+    height:100px;
     margin:150px auto;
     display: flex;
+    flex-flow:wrap;
+    float:right;
     justify-content: space-around;
     position:relative;
 }
 .white{
     color:white;
-    font-size:15px;
-    text-align:center;
-    margin-left:-60px;
-    margin-top:120px;
+    font-size:calc(4px + 1vw);
+    text-align:left;
+    margin:30px auto;
 }
 
 .circle-icon {
@@ -536,7 +560,7 @@ ul li:hover{
     line-height: 30px;
     vertical-align: middle;
     padding: 30px;
-    margin-bottom:20px;
+    margin:-100px auto;
     transition:0.7s;
     color:white;
     position:absolute;
@@ -557,12 +581,12 @@ ul li:hover{
     height:110vh;
 }
 .choose{
-    width:45%;
-    height:70px;
+    width: 50vw;
+    height: 10vh;
     border-bottom: 2px solid #E7E7E7;
     margin:120px auto;
     text-align:center;
-    font-size: 50px;
+    font-size:calc(4px + 3vw);
     padding:10px;
 }
 .choose span{
@@ -570,16 +594,18 @@ ul li:hover{
     font-weight:bold;
 }
 .hotel{
-    width:65%;
-    height:30px;
+    width: 60vw;
+    height: 8vh;
     margin:-40px auto;
     color:rgba(0,0,0,0.8);
-    font-size:17px;
+    font-size:calc(4px + 1vw);
+    text-align: center;
 }
 .hotels{
-   width: 22%;
-   height:250px;
-   background-size:100%;  
+    width: 20vw;
+    height: 42vh;
+   background-size:105%;  
+   background-repeat: no-repeat;
    transition:1s;
    text-align:center;
    display:flex;
@@ -629,7 +655,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', end
     justify-content: space-between;
 }
 .join{
-    width: 68%;
+    width: 50vw;
     height:100%;
 }
 .Jus{

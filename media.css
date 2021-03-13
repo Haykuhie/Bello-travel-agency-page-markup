@@ -1,0 +1,194 @@
+@media screen and (max-width: 1300px) {
+    .absolutes{
+        
+        width:60vw;
+        height:auto;
+        margin:-6vw auto;
+    }
+    .box{
+        width: 45vw;
+        height: 34vw;
+        align-items: center;
+    }
+    .rst-s{
+        margin:0 auto;
+    }
+
+
+  }
+
+
+
+@media screen and (max-width: 1270px) {
+    .absolutes{
+        
+        width:60vw;
+        height:auto;
+        margin:-6vw auto;
+    }
+    .box{
+        width: 45vw;
+        height: 34vw;
+        align-items: center;
+    }
+    .rst-s{
+        margin:0 auto;
+    }
+    .txt{
+        margin:0;
+     }
+     .lightBackground{
+        display:none;
+    }
+    .lightBackground2{
+        display:none;
+    }
+    .topBorder{
+        display:none;
+    }
+    .percent40{
+        display:none;
+        width:0;
+    }
+    .percent50{
+       width:100%;
+       line-height: unset;
+       margin:auto;
+       height: 5vh
+    }
+    .Last{
+        line-height:unset;
+    }
+
+  }
+
+  @media screen and (max-width: 1070px) {
+    .hotels{
+       width:40%;
+       height:60vh;
+       margin:5px;
+    }
+    .whiteBackground{
+        height:190vh;
+    }
+    .gradient{
+        height:130vh;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 960px) {
+    .secondSection{
+        height:470vh;
+    }
+    .flex1{
+        height:130vh;
+    }
+
+   .all{
+       width:40%;
+       height:62vh;
+   } 
+   .member{
+       display:none;
+   }
+   .BigFlex{
+    width: 80vw;
+   }
+ 
+    
+  }
+
+  @media screen and (max-width: 850px) {
+    .box{
+        width:unset;
+    }
+ 
+    .hotels{
+        width: 80%;
+        height: 80vh;
+    }
+    .whiteBackground {
+        height: 390vh;
+    }
+    .gradient{
+        height:137vh;
+    }
+  }
+
+
+
+  @media screen and (max-width: 800px) {
+    .menuNav{
+         display:unset;
+    }
+    ul{
+        width:90%;
+        padding:10px;
+        margin:0 auto;
+    }
+    .login{
+    
+        width:100vw;
+        text-align:right;
+    }
+    body{
+        margin:0;
+        }
+
+  }
+
+ 
+
+
+  @media screen and (max-width: 740px) {
+      
+    .secondSection{
+        height:945vh;
+    }
+    .flex1{
+        display:unset;
+    }
+    .all{
+        width: 63%;
+        height: 93vh;
+        margin: 5px auto;
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+
+    .all{
+        height: 60vh;
+    }
+    .secondSection{
+        height:680vh;
+    }
+
+  }
+
+
+  @media screen and (max-width: 640px) {
+    .quotes{  
+        display:unset;
+    }
+    
+      
+    .secondSection{
+        height: 790vh;
+    }
+    .flex1{
+        display:unset;
+    }
+    .all{
+        width: 63%;
+        height: 60vh;
+        margin: 5px auto;
+    }
+    .gradient{
+       height:143vh;
+    }
+  }
+
+
